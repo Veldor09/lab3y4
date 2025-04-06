@@ -18,5 +18,5 @@ export function useUserState() {
       };
 
       
-    return ( error, emailRef, passwordRef, login, setError )
+    return { error, emailRef, passwordRef, login, setError }
 }
