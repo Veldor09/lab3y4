@@ -12,9 +12,7 @@ return (
   <>
 
          <h2>Login</h2>
-
-         
-           <div>
+            <div>
       
              {
                 !user 
@@ -27,7 +25,7 @@ return (
              }
            </div>  
   </>
-)
+ )
 }
 
 export default App
